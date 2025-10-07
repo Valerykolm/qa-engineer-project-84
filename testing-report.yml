@@ -16,6 +16,14 @@
   status: pass
 
 - summary: |
+    Проверка отображения brand на следующей странице
+  status: fail
+
+- summary: |
+    Проверка отображения Category на следующей странице
+  status: fail
+
+- summary: |
     Успешный фильтр по прайсу
   status: pass
 
@@ -45,6 +53,10 @@
 
 - summary: |
     Проверка перехода на главную страницу с логотипа Hexlet Store
+  status: fail
+
+- summary: |
+    Проверка наличия флага у страны во вкладке language
   status: fail
 
 
