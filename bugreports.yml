@@ -1,0 +1,52 @@
+---
+- summary: |
+    Не работает отображения brand на следующей странице
+  environment: |
+    Google Chrome   141.0.7390.54 (Official Build) (64-bit)
+    ОС Linux 22.04
+  steps-to-reproduce: |
+    1. Зайти на главную страницу https://products-store-ru.hexlet.app/
+    2. Нажать ссылку next
+  expected-result: |
+    На странице должен отображаться brand в левом сайдбаре как на главной
+  actual-result: |
+    На странице отображается только заголовок Brand
+
+- summary: |
+    Не работает отображения Category на следующей странице
+  environment: |
+    Google Chrome   141.0.7390.54 (Official Build) (64-bit)
+    ОС Linux 22.04
+  steps-to-reproduce: |
+    1. Зайти на главную страницу https://products-store-ru.hexlet.app/
+    2. Нажать ссылку next
+  expected-result: |
+    На странице должен отображаться Category в левом сайдбаре как на главной
+  actual-result: |
+    На странице отображается другие Category, не такие как на главной
+
+- summary: |
+    Не работает переход на главную страницу с логотипа Hexlet Store
+  environment: |
+    Google Chrome   141.0.7390.54 (Official Build) (64-bit)
+    ОС Linux 22.04
+  steps-to-reproduce: |
+    1. Зайти на второстепенную страницу https://products-store-ru.hexlet.app/products/31
+    2. Нажать логотип Hexlet Store
+  expected-result: |
+    При клике по логотипу должны переходить на главную страницу
+  actual-result: |
+    Переход не работает, остается на этой же странице
+
+- summary: |
+    Нет картинки флага у English во вкладке language
+  environment: |
+    Google Chrome   141.0.7390.54 (Official Build) (64-bit)
+    ОС Linux 22.04
+  steps-to-reproduce: |
+    1. Открываем выпадающее меню language
+  expected-result: |
+    В выпадающем меню рядом с English должен отображается флаг
+  actual-result: |
+    В выпадающем меню рядом с English нет картинки флага
+
