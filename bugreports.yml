@@ -64,3 +64,17 @@
     Форма закрыта, находимся в корзине
   actual-result: |
     Форма на закрывается при клике
+
+- summary: |
+    Не закрывается выпадающее меню
+  environment: |
+    Google Chrome   141.0.7390.54 (Official Build) (64-bit)
+    ОС Linux 22.04
+  steps-to-reproduce: |
+    1. Открываем меню Language
+    2. Открываем меню Category
+    3. Кликаем по любому месту на сайте
+  expected-result: |
+    Меню закрывается
+  actual-result: |
+    Меню на закрывается при клике
