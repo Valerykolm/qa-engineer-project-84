@@ -80,7 +80,7 @@
     Меню на закрывается при клике
 
 - summary: |
-    Кнопка Add to Cart в товарах бренда Annibale Colombo отображается в две строки
+    Кнопка Add to Cart отображается в две строки
   environment: |
     Google Chrome   141.0.7390.54 (Official Build) (64-bit)
     ОС Linux 22.04
