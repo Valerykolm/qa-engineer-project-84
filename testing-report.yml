@@ -67,6 +67,10 @@
     Проверка закрытия выпадающих меню
   status: fail
 
+- summary: |
+    Проверка отображения кнопки Add to Cart в товарах бренда Annibale Colombo
+  status: fail
+
 
 
   
