@@ -90,3 +90,16 @@
     Кнопка Add to Cart в товарах бренда Annibale Colombo отображается в одну строку
   actual-result: |
     Кнопка Add to Cart в товарах бренда Annibale Colombo отображается в две строки
+
+- summary: |
+    Не работает переход на главную страницу с логотипа Hexlet Store со следующей страницы
+  environment: |
+    Google Chrome   141.0.7390.54 (Official Build) (64-bit)
+    ОС Linux 22.04
+  steps-to-reproduce: |
+    1. Зайти на следующую страницу 
+    2. Нажать логотип Hexlet Store
+  expected-result: |
+    При клике по логотипу должны переходить на главную страницу
+  actual-result: |
+    Переход не работает, остается на этой же странице
