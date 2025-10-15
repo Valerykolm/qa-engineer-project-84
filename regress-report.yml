@@ -2,15 +2,19 @@
 test-cases:
   - summary: |
       Проверка перехода на главную страницу с логотипа Hexlet Store
-    status: pass
+    status: fail
 
   - summary: |
-      Проверка перехода на главную страницу с логотипа Hexlet Store со следующей страницы
+      Проверка отображения кнопки Add to Cart
+    status: fail
+
+  - summary: |
+      Проверка наличия флага у страны во вкладке language
     status: fail
 
 bugreports:
   - summary: |
-      Не работает переход на главную страницу с логотипа Hexlet Store со следующей страницы
+      Не работает переход на главную страницу с логотипа Hexlet Store
     environment: |
       Google Chrome   141.0.7390.54 (Official Build) (64-bit)
       ОС Linux 22.04
@@ -21,3 +25,27 @@ bugreports:
       При клике по логотипу должны переходить на главную страницу
     actual-result: |
       Переход не работает, остается на этой же странице
+
+  - summary: |
+      Кнопка Add to Cart отображается в две строки
+    environment: |
+      Google Chrome   141.0.7390.54 (Official Build) (64-bit)
+      ОС Linux 22.04
+    steps-to-reproduce: |
+      1. Выбираем в левом сайдбаре бренд Dior
+    expected-result: |
+      Кнопка Add to Cart в товарах бренда Annibale Colombo отображается в одну строку
+    actual-result: |
+      Кнопка Add to Cart в товарах бренда Annibale Colombo отображается в две строки
+
+  - summary: |
+      Нет картинки флага у English во вкладке language
+    environment: |
+      Google Chrome   141.0.7390.54 (Official Build) (64-bit)
+      ОС Linux 22.04
+    steps-to-reproduce: |
+      1. Открываем выпадающее меню language
+    expected-result: |
+      В выпадающем меню рядом с English должен отображается флаг
+    actual-result: |
+      В выпадающем меню рядом с English нет картинки флага
