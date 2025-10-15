@@ -71,9 +71,6 @@
     Проверка отображения кнопки Add to Cart в товарах бренда Annibale Colombo
   status: fail
 
-- summary: |
-    Проверка отображения верстки приложения по центру
-  status: fail
 
 
 
