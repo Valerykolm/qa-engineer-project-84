@@ -71,10 +71,6 @@
     Проверка отображения кнопки Add to Cart в товарах бренда Annibale Colombo
   status: fail
 
-- summary: |
-    Проверка перехода на главную страницу с логотипа Hexlet Store со следующей странице
-  status: fail
-
 
 
 
