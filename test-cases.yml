@@ -248,3 +248,17 @@
     - Кликаем по любому месту на сайте
   expected-result: |
     Выпадающее меню закрывается при клике на любом месте
+
+- summary: |
+    Проверка отображения кнопки Add to Cart в товарах бренда Annibale Colombo
+  requirement: |
+    Кнопка Add to Cart должна отображаться в одну строку, без переноса
+  prerequisites: |
+    Открыта главная страница
+  test-data: |
+    Тестовые данные:
+    Бренд Annibale Colombo
+  steps:
+    - Выбираем в левом сайдбаре бренд Annibale Colombo
+  expected-result: |
+    Кнопка Add to Cart в данных товарах отображается в одну строку
