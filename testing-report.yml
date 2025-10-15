@@ -68,7 +68,7 @@
   status: fail
 
 - summary: |
-    Проверка отображения кнопки Add to Cart в товарах бренда Annibale Colombo
+    Проверка отображения кнопки Add to Cart
   status: fail
 
 
