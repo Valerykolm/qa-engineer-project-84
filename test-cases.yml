@@ -53,7 +53,7 @@
     - Выбираем в чек-листе бренд Essence, Chanel, Dior
   expected-result: |
     Пользователь должен увидеть товары Essence Mascara Lash Princess, Chanel Coco Noir Eau De, Dior J'adore
- на главной странице
+    на главной странице
 
 - summary: |
     Проверка отображения brand на следующей странице
